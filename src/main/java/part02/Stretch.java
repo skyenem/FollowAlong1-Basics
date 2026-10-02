@@ -12,7 +12,7 @@ package part02;
 public class Stretch {
     public static void main(String[] args) {
         int x = 123;
-        long val = 369760067;
+        long val = 36976006;
         byte val2 = 100;
         double val4 = 3.14;
         boolean b1 = true;
