@@ -10,5 +10,8 @@ package part03;
 // You will also need the Scanner import line, above the class.
 
 public class Stretch {
+    public static void main(String[] args) {
+
+    }
 
 }
