@@ -20,16 +20,18 @@ public class UserInput {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        // asking the user what their name is and then waiting on their input in order to proceed
         System.out.println("What is your name?");
         String name = scanner.nextLine();
 
+        // same as above waiting on the users input and it has to be an integer variable
         System.out.println("How old are you?");
         int age = scanner.nextInt();
         scanner.nextLine();
-
+        //what is the fav food same as the 2 above as well just has to be string variables
         System.out.println("What is your favorite food?");
         String food = scanner.nextLine();
-
+        // printts out all the user inputed values into the format shown below.
         System.out.println("Hello " + name);
         System.out.println("You are " + age + " years old");
         System.out.println("You like " + food);
